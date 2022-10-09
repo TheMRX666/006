@@ -1,0 +1,27 @@
+footer{
+    background-color: #245852;
+    color: white;
+    padding: 104px 0 144px;
+}
+
+.footer-logo + *{
+    margin-top: 74px;
+}
+
+
+.footer-list {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-list li + li{
+    margin-top: 60px;
+}
+
+.footer-list a {
+    transition: color 0.5s ease;  
+}
+
+.footer-list a:hover {
+    color: #28dba8;
+}

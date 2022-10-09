@@ -1,0 +1,138 @@
+.our-product {
+    padding-top: 120px;
+    padding-bottom: 168px;
+}
+
+.our-product-rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-product-img-wrapper {
+    position: relative;
+    margin-right: 86px;
+    padding-left: 60px;
+    padding-bottom: 74px;
+}
+
+.our-product-img {
+    border-radius: 18px;
+}
+
+.our-product-content {
+    max-width: 584px;
+}
+
+.our-product-content-head {
+    line-height: 157%;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.our-product-content-head + * {
+    margin-top: 10px;
+}
+
+.our-product-content-title {
+    color: #01996D;
+    line-height: 157%;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Georgia', serif;
+}
+
+.our-product-content-title + * {
+    margin-top: 20px;
+}
+
+.our-product-content-text {
+    font-size: 20px;
+    line-height: 144.5%;
+    max-width: 530px;
+}
+
+
+.our-product-content-text + * {
+    margin-top: 40px;
+}
+
+.our-product-content-button {
+    display: flex;
+}
+
+
+.our-product-card {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.our-product-card-controller {
+    background-color: white;
+    width: 296px;
+    border-radius: 4px;
+    box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 20px 30px;
+}
+.our-product-card-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    padding-bottom: 12px;
+    margin-bottom: 13px;
+}
+
+.our-product-card-title::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 0.75px;
+    left: -10px;
+    right: -10px;
+    bottom: 0px;
+}
+
+.our-product-card-avatar {
+    margin-bottom: 25px;
+}
+.card-avatar {
+    text-align: center;
+}
+.avatar-img {
+    margin-bottom: 13px;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.avatar-name {
+    font-size: 12px;
+}
+.our-product-card-content {
+    text-align: left;
+    padding-left: 6px;
+}
+.card-content-title {
+    font-family:'Georgia', serif;
+    font-size: 16px;
+    margin-bottom: 22px;
+    font-weight: 700;
+}
+
+.our-product-card-controller ul {
+    font-size: 12px;
+    margin-left: 15px;
+    list-style-position: inside;
+}
+
+
+.our-product-card-controller ul li {
+    list-style-type: disc;
+}
+
+.our-product-card-controller ul li + li {
+    margin-top: 20px;
+}

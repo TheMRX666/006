@@ -1,0 +1,61 @@
+.nav-button {
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    background: transparent;
+
+    position: relative;
+    z-index: 10;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button-icon {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+}
+
+.nav-button-icon::after, .nav-button-icon::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+    
+    transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
+}
+
+
+.nav-button-icon::before {
+    left: 0;
+    top: -10px;
+}
+
+.nav-button-icon::after {
+    left: 0;
+    top: 10px;
+}
+
+.nav-button-icon.active {
+    background-color: transparent;
+}
+
+
+.nav-button-icon.active::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
+}
+
+.nav-button-icon.active::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
+}

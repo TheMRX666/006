@@ -1,0 +1,42 @@
+.burger-menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 5;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px 40px 15px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.burger-menu.active {
+    display: flex;
+}
+
+.burger-nav a{
+
+    font-size: 25px;
+
+}
+
+.burger-nav li + li {
+    margin-top: 22px;
+}
+
+.burger-auth {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger-auth a + a{
+    margin-top: 22px;
+}
+
+.burger-auth-link {
+    font-size: 25px;
+}
