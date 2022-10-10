@@ -285,17 +285,23 @@
 }
 @media (max-width: 430px){
     .our-product-content {
-        padding-left: 65px;
-        width: 550px;
+        padding-left: 15px;
+        width: 530px;
     }  
+
+    .our-product-img-wrapper {
+        position: relative;
+        display: block;
 }
-@media (max-width: 340px){
+
     .our-product-content-title {
-        font-size: 50px;
+        width: 240px;
+        font-size: 30px;
     }
     .our-product-content-text {
-        font-size: 25px;
-}
+        font-size: 15px;
+    }
+
 }
 
 /*END PRODUCT BLOCK*/
@@ -304,8 +310,8 @@
         padding-left: 10px;
     }
 }
+
+/*END MAIN BLOCK*/
 /*START FOOTER BLOCK*/
 
 /*END FOOTER BLOCK*/
-
-/*END MAIN BLOCK*/
