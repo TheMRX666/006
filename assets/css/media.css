@@ -283,7 +283,7 @@
         margin-top: 35px;
     }
 }
-@media (max-width: 440px){
+@media (max-width: 540px){
     .our-product-content {
         padding-left: 15px;
         width: 530px;
