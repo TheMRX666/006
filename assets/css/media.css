@@ -283,7 +283,7 @@
         margin-top: 35px;
     }
 }
-@media (max-width: 430px){
+@media (max-width: 440px){
     .our-product-content {
         padding-left: 15px;
         width: 530px;
@@ -301,6 +301,25 @@
     .our-product-content-text {
         font-size: 15px;
     }
+	.our-product-card {
+		position: relative;
+	}
+	
+	.our-product-card-controller{
+		position: relative;
+	}
+	
+	.our-product-rows {
+		display: block;
+	}
+	
+	.our-product-img {
+		width: 236px;
+	}
+	
+	.our-product-content-text p {
+		width: 300px;
+	}
 
 }
 
@@ -310,8 +329,8 @@
         padding-left: 10px;
     }
 }
-
-/*END MAIN BLOCK*/
 /*START FOOTER BLOCK*/
 
 /*END FOOTER BLOCK*/
+
+/*END MAIN BLOCK*/
